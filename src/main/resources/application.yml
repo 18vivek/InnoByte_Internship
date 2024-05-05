@@ -1,0 +1,11 @@
+server:
+  port: 5000
+  servlet:
+    contextPath: /innobytes
+
+spring:
+  datasource:
+    url: ${MYSQL_URL}
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+    driver-class-name: ${MYSQL_DRIVER}    
